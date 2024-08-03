@@ -1,2 +1,2 @@
-# hawamanAi
+# hawaman
 Real-time weather information
