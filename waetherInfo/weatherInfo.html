@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-Information</title>
+    <link rel="stylesheet" href="weatherInfo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Nanum+Gothic&family=Playwrite+AR:wght@100..400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="body">
+        <div class="structure">
+            <div class="topcase">
+                <input type="text" placeholder="Enter a city name">
+                <button class="search-button"><img src="D:\Avish\waetherInfo\images\search.png" alt="search" class="search"></button>
+            
+            
+        </div>
+        
+       
+        <div class="weather">
+            <img src="D:\Avish\waetherInfo\images\pointing-up.png" alt="" class="weatherCondition">
+            <div class="freespace"></div>
+            <div class="info">
+                <div class="weatherPrecise"></div>
+                <div class="temperature">Hawaman Web</div>
+                <div class="city"></div>
+            </div>
+            <div class="freespace"></div>
+
+        </div>
+        <div class="leftinfo">
+            <img src="D:\Avish\waetherInfo\images\humidity.png" alt="Image description" class="info-image">
+            <div class="info-content">
+                <div class="numerical-info"></div>
+                <div class="freespace-1"></div>
+                <div class="descriptive-info">Humidity</div>
+            </div>
+        </div>
+
+        <div class="leftinfo">
+            <img src="images/windy.png" alt="Image description" class="info-image">
+            <div class="info-content">
+                <div class="numerical-info" id="speed"></div>
+                <div class="freespace-1"></div>
+                <div class="descriptive-info">Wind Speed</div>
+            </div>
+        </div>
+
+    </div>
+    
+    <script src="weatherInfo.js"></script>
+</body>
+</html>

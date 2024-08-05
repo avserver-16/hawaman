@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #090909;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.structure{
+    height: 550px;
+    width: 400px;
+    background: linear-gradient(to right, #1A3636, #40534C);
+    border-radius: 24px;
+    box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.562);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    transition: transform 1.5s ease;
+}
+.structure:hover{
+    transform: translateY(-10px); 
+    box-shadow: 2px 2px 20px rgba(255, 255, 255, 0.333);
+}
+.topcase {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    height: 15%;
+    background-color: transparent;
+  
+    
+}
+
+.topcase input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 0px;
+    border-radius: 5px 24px 5px 24px;
+    outline: none;
+    height: 40px;
+    background: linear-gradient(to left, #1A3636, #40534C);
+    color: #ffffff;
+    font-size: 20px;
+    box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.25);
+    font-family: 'Montserrat', sans-serif;
+
+    transition: transform 0.7s ease;
+}
+.topcase input[type="text"]::placeholder {
+    color: #ffffff28; 
+    
+}
+.topcase input:hover{
+    transform: translateY(-10px); 
+    box-shadow: 10px 10px 20px 5px rgba(255, 255, 255, 0.035);
+}
+
+.topcase .search-button {
+
+    font-size: 16px;
+    border: 0px;
+    border-left: none;
+    border-radius: 50%;
+    background: linear-gradient(to left, #1A3636, #40534C);
+    color: white;
+    cursor: pointer;
+    height:50px;
+    width: 55px;
+    margin: 5px;
+    box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.7s ease;
+}
+
+.topcase .search-button:hover {
+    background: linear-gradient(to left, #1A3636, #40534C);
+    transform: translateY(-10px); 
+    box-shadow: 10px 10px 20px 5px rgba(255, 255, 255, 0.035);
+}
+
+
+.topcase .search-button:focus {
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    border: 1px solid rgba(81, 203, 238, 1);
+}
+
+.search{
+    background: transparent;
+    height:40%;
+    width: 40%;
+  border-radius: 20%;
+}
+
+.weather{
+    height: 60%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.weatherCondition{
+    background-color: transparent;
+    height: 50%;
+    width: 50%;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: transparent;
+    
+    
+}
+.temperature{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: #D6BD98;
+    border: 0px;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.city{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: #D6BD98;
+    border: 0px;
+    font-size: 25px;
+}
+.freespace{
+    height: 30%;
+    width: 100%;
+    background-color: transparent;
+}
+
+
+.leftinfo {
+    display: flex;
+    align-items: flex-start;
+    margin-right: -15px;
+width: 50%;
+background-color: transparent;
+    border-radius: 5px;
+  margin-bottom: 0px;
+    height: 10%;
+    padding: 0px;
+}
+
+.info-image {
+    width: 50%; /* Adjust size as needed */
+    height: 100%;
+    margin-right: 20px;
+    background-color: transparent;
+}
+.numerical-info{
+    height: 50%;
+    background-color: transparent;
+    color: #D6BD98;
+    font-size: 25px;
+}
+.descriptive-info{
+    height: 50%;
+    background-color: transparent;
+    color: #D6BD98;
+}
+.freespace-1{
+    height: 20%;
+    width: 100%;
+    background-color: transparent;
+}
+.info-content{
+    background-color: transparent;
+    margin-right: 35px;
+}
+
+.weatherPrecise{
+    height: 20%;
+    width: 100%;
+    font-size: 24px;
+    background-color: inherit;
+    color: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #D6BD98;
+}
